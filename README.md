@@ -78,14 +78,28 @@ Current Tasks:
 
 ### Completed
 
-- Launched an Amazon EC2 instance.
+- Launched an Amazon EC2 instance using Amazon Linux 2023.
 - Configured SSH access using an RSA key pair.
 - Deployed the instance into a custom Amazon VPC.
-- Configured networking using a public subnet.
-- Created a web server security group with SSH and HTTP access.
+- PLaced the instance in a public subnet.
+- Created and configured a Security Group allowing SSH (22) and HTTP (80).
+- Connected securely to the EC2 instance from macOS using SSH.
+- Installed and configured Apache HTTP Server (httpd).
+- Enabled Apache to start automatically after system reboots.
+- Deployed a static web application accessible from the internet using the EC2 public IP address.
 
 ### Lessons Learned
 
 - EC2 instances inherit networking from the VPC and subnet they are deployed into.
 - A subnet is considered public when its route table contains a route to an Internet Gateway.
-- Verifying the VPC and subnet before launching an EC2 instance is critical to ensure the infrastructure matches the intended architecture.
+- Security Groups control which network traffic is allowed to reach an EC2 instance.
+- Apache must be installed and started before a web server can serve content.
+- Verifying the VPC and subnet before launching an EC2 instance is critical to ensure the infrastructure
+  matches the intended architecture.
+- SSH key pairs provide secure administrative access without using passwords.
+
+### Deployment Verification
+
+The deployed web application was successfully accessed through the EC2 public IPv4 address after configuring the Security Group and Apache web server.
+
+![Cloud Production Tracker](screenshots/cloud-production-tracker-homepage.png)
