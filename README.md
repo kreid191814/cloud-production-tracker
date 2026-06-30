@@ -100,8 +100,6 @@ Current Tasks:
 
 ### Deployment Verification
 
-## Deployment Verification
-
 The Cloud Production Tracker application was successfully deployed to an Amazon EC2 instance running Amazon Linux 2023 within a custom Amazon VPC.
 
 The application is hosted using Apache HTTP Server and is accessible through the EC2 public IPv4 address.
