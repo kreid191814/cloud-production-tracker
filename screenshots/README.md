@@ -8,3 +8,5 @@ This folder contains screenshots documenting the implementation of the Cloud Pro
 - Public and Private Subnets
 - Route Tables
 - Internet Gateway
+- EC2 Instance
+- Cloud Production Tracker Webpage
