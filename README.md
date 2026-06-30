@@ -54,3 +54,22 @@ Current Tasks:
 - Define business requirements
 - Design AWS architecture
 - Build networking foundation (VPC)
+
+## Sprint 1 - Networking Foundation ✅
+
+### Completed
+
+- Designed a custom Amazon VPC
+- Configured a scalable IPv4 CIDR block (10.0.0.0/16)
+- Created two public subnets across two Availability Zones
+- Created two private subnets across two Availability Zones
+- Configured an Internet Gateway
+- Configured route tables
+- Added an Amazon S3 Gateway Endpoint
+- Enabled DNS resolution and DNS hostnames
+
+### Key Design Decisions
+
+- Used two Availability Zones to improve high availability.
+- Separated internet-facing resources from backend resources using public and private subnets.
+- Implemented a scalable network foundation for future Auto Scaling and Load Balancing.
