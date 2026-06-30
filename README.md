@@ -81,7 +81,7 @@ Current Tasks:
 - Launched an Amazon EC2 instance using Amazon Linux 2023.
 - Configured SSH access using an RSA key pair.
 - Deployed the instance into a custom Amazon VPC.
-- PLaced the instance in a public subnet.
+- Placed the instance in a public subnet.
 - Created and configured a Security Group allowing SSH (22) and HTTP (80).
 - Connected securely to the EC2 instance from macOS using SSH.
 - Installed and configured Apache HTTP Server (httpd).
