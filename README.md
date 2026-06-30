@@ -104,4 +104,5 @@ The Cloud Production Tracker application was successfully deployed to an Amazon 
 
 The application is hosted using Apache HTTP Server and is accessible through the EC2 public IPv4 address.
 
-![Cloud Production Tracker Homepage](screenshots/cloud-production-tracker-homepage.PNG)
+screenshots/Cloud Production Tracker Home Page.png
+
