@@ -1,5 +1,3 @@
-# cloud-production-tracker
-
 # Cloud Production Tracking Platform
 
 ## Project Overview
