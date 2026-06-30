@@ -73,3 +73,19 @@ Current Tasks:
 - Used two Availability Zones to improve high availability.
 - Separated internet-facing resources from backend resources using public and private subnets.
 - Implemented a scalable network foundation for future Auto Scaling and Load Balancing.
+
+## Sprint 2 - Compute 🚧
+
+### Completed
+
+- Launched an Amazon EC2 instance.
+- Configured SSH access using an RSA key pair.
+- Deployed the instance into a custom Amazon VPC.
+- Configured networking using a public subnet.
+- Created a web server security group with SSH and HTTP access.
+
+### Lessons Learned
+
+- EC2 instances inherit networking from the VPC and subnet they are deployed into.
+- A subnet is considered public when its route table contains a route to an Internet Gateway.
+- Verifying the VPC and subnet before launching an EC2 instance is critical to ensure the infrastructure matches the intended architecture.
