@@ -100,6 +100,10 @@ Current Tasks:
 
 ### Deployment Verification
 
-The deployed web application was successfully accessed through the EC2 public IPv4 address after configuring the Security Group and Apache web server.
+## Deployment Verification
 
-![Cloud Production Tracker](screenshots/cloud-production-tracker-homepage.png)
+The Cloud Production Tracker application was successfully deployed to an Amazon EC2 instance running Amazon Linux 2023 within a custom Amazon VPC.
+
+The application is hosted using Apache HTTP Server and is accessible through the EC2 public IPv4 address.
+
+![Cloud Production Tracker Homepage](screenshots/cloud-production-tracker-homepage.png)
